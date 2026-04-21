@@ -85,11 +85,11 @@ run("Measure");
 
 // Saving results and printing the saved things
 roiManager("save", path_to_results+filename_clean+"_ROIset.zip");
-saveAs("Results", path_to_results+filename_clean+"_Distances.txt");
+saveAs("Results", path_to_results+filename_clean+"_Distances.txt");//Use .csv alternativvely for excel direct compatibility
 setOption("Changes", false);
-close("*");
 close("Results");
 close("ROI Manager");
+run("Close All");
 print("Distances in nanometers appear in the MEAN column");
 print("These results are saved as"+path_to_results+filename_clean+"_Distances.txt");
 print("Roiset saved as "+path_to_results+filename_clean+"_ROIset.zip");
