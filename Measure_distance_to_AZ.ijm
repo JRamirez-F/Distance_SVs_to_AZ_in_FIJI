@@ -1,4 +1,3 @@
-```javascript
 /*
  * Macro to measure the distance of SVs to the AZ
  By Ramirez-Franco J.
