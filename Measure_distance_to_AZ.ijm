@@ -1,4 +1,4 @@
-<pre> ```javascript
+```javascript
 /*
  * Macro to measure the distance of SVs to the AZ
  By Ramirez-Franco J.
@@ -95,4 +95,3 @@ print("Distances in nanometers appear in the MEAN column");
 print("These results are saved as"+path_to_results+filename_clean+"_Distances.txt");
 print("Roiset saved as "+path_to_results+filename_clean+"_ROIset.zip");
 }
-```<pre>
